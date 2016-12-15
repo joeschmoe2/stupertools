@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stupertools</title>
+    <script src="scripts/es6-shim.min.js"></script>
+    <script src="scripts/system-polyfills.js"></script>
+    <script src="scripts/angular2-polyfills.js"></script>
+    <script src="scripts/system.js"></script>
+    <script src="scripts/typescript.js"></script>
+    <script src="scripts/Rx.js"></script>
+    <script src="scripts/angular2.js"></script>
+    <script src="scripts/fuel-ui-0.3.9/bundles/fuel-ui.min.js"></script>
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true },
+        packages: {'app': {defaultExtension: 'ts'}}
+      });
+      System.import('/app/main').then(null, console.error.bind(console));
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/styles/main.css" rel="stylesheet">
+</head>
+<body class = "mainBody">
+<div class = "headerBody"></div>
+<tab></tab>
+<my-header>Loading... </my-header>
+<my-app>Loading...</my-app>
+</body>
+</html>
