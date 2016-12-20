@@ -1,8 +1,6 @@
-import {bootstrap} from '@angular/platform-browser-dynamic'
-import {Header} from "./header.component"
-import {MyHelloWorldClass} from "./main.component"
-/*import {TabDemo} from "./Tab.Demo"*/
+import {bootstrap} from '@angular/platform-browser-dynamic';
+import {Header} from './header.component';
+import {MainApp} from './main.component';
 
 bootstrap(Header);
-/*bootstrap(TabDemo);*/
-bootstrap(MyHelloWorldClass);
+bootstrap(MainApp);
