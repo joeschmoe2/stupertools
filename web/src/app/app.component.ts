@@ -34,7 +34,7 @@ export class AppComponent {
       console.log('Initial App State', this.appState.state);
 
       this.items = [{
-        label: 'Content',
+        label: 'Home',
         items: [
           {label: 'About', icon: 'fa-plus', url: '/about'},
           {label: 'Fleek Level', icon: 'fa-download'}
