@@ -298,9 +298,9 @@ Forks of this project demonstrate how to extend and integrate with other librari
 │       │   │   ├── home.component.css
 │       │   │   ├── home.component.e2e-spec.ts
 │       │   │   ├── home.component.html
-│       │   │   ├── home.component.spec.ts
-│       │   │   ├── home.component.ts
-│       │   │   ├── home.module.ts
+│       │   │   ├── FF.component.spec.ts
+│       │   │   ├── FF.component.ts
+│       │   │   ├── FF.module.ts
 │       │   │   ├── home.routes.ts
 │       │   │   └── index.ts
 │       │   ├── i18n.providers.ts
