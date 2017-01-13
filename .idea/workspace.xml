@@ -271,8 +271,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/assets/css/themes/south-street/theme.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/assets/css/themes/start/theme.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/assets/css/themes/trontastic/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config/webpack.common.js" afterPath="$PROJECT_DIR$/web/config/webpack.common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/package.json" afterPath="$PROJECT_DIR$/web/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/about/about.component.ts" afterPath="$PROJECT_DIR$/web/src/app/about/about.component.ts" />
@@ -375,8 +373,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular2-webpack-starter/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="79" />
+            <state relative-caret-position="324">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -995,12 +993,12 @@
       <workItem from="1482108682269" duration="416000" />
       <workItem from="1482109134089" duration="9126000" />
       <workItem from="1483817872883" duration="620000" />
-      <workItem from="1484017095063" duration="12413000" />
+      <workItem from="1484017095063" duration="12796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23119000" />
+    <option name="totallyTimeSpent" value="23502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="0" />
@@ -1390,8 +1388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular2-webpack-starter/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="79" />
+        <state relative-caret-position="324">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
