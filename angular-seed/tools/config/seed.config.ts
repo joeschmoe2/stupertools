@@ -144,7 +144,7 @@ export class SeedConfig {
    * `index.html`.
    * @type {string}
    */
-  APP_TITLE = 'StuperTools - The Stuperest Tools Ever Assembled';
+  APP_TITLE = 'Welcome to angular-seed!';
 
   /**
    * The base folder of the applications source files.

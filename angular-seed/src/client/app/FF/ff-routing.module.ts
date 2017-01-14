@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { FFComponent } from './FF.component';
+import { FfComponent } from './ff.component';
 
 @NgModule({
   imports: [
     RouterModule.forChild([
-      { path: 'FF', component: FFComponent }
+      { path: 'FF', component: FfComponent }
     ])
   ],
   exports: [RouterModule]
 })
-export class FFRoutingModule { }
+export class FfRoutingModule { }
