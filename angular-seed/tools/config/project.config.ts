@@ -8,8 +8,14 @@ import { SeedConfig } from './seed.config';
  * below.
  */
 export class ProjectConfig extends SeedConfig {
+  PRIME_NG_THEME = '<theme-name>';
+  CSS_IMAGE_DEST = `${this.CSS_DEST}/images`;
+  CSS_IMAGE_SRC = [
+    'node_modules/primeng/resources/themes/' + this.PRIME_NG_THEME + '/images/**'
+  ];
 
-  PROJECT_TASKS_DIR = join(process.cwd(), this.TOOLS_DIR, 'tasks', 'project');
+
+    PROJECT_TASKS_DIR = join(process.cwd(), this.TOOLS_DIR, 'tasks', 'project');
 
   constructor() {
     super();
@@ -23,6 +29,9 @@ export class ProjectConfig extends SeedConfig {
       ...this.NPM_DEPENDENCIES,
       // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
       // {src: 'lodash/lodash.min.js', inject: 'libs'},
+      { src: 'primeng/resources/primeng.min.css', inject: true },
+      { src: 'primeng/resources/themes/<theme-name>/theme.css', inject: true },
+      { src: 'font-awesome/css/font-awesome.min.css', inject: true },
     ];
 
     // Add `local` third-party libraries to be injected/bundled.

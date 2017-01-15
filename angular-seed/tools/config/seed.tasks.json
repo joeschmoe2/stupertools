@@ -23,6 +23,7 @@
     "clean.prod",
     "tslint",
     "build.assets.prod",
+    "build.css_images",
     "build.html_css",
     "copy.prod",
     "build.js.prod",

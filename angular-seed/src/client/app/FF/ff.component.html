@@ -7,8 +7,8 @@
   <button type="button" (click)="viewStats()">Refresh Grid</button>
 </form>
 
-<!--
+<!-- TODO set up with lazy loading -->
 <p-dataTable *ngIf="show" [value]="randomData">
   <p-column *ngFor="let col of cols" [field]="col.field" [header]="col.header"></p-column>
-</p-dataTable>-->
+</p-dataTable>
 
