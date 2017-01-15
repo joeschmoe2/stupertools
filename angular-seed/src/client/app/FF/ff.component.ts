@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FFDataService } from './services/ff-getdata.service';
-import { randomData } from './models/randomData'
+import { randomData } from './models/randomData';
 
 /**
  * This class represents the lazy loaded ffComponent.
@@ -24,6 +24,7 @@ export class FFComponent implements OnInit {
   constructor(public FFDataService: FFDataService) {}
 
   ngOnInit() {
+    //this.lazyLoad
   }
 
   getNames() {

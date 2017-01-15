@@ -5,7 +5,7 @@ import { FfRoutingModule } from './ff-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { NameListService } from '../shared/name-list/name-list.service';
 import { FFDataService } from './services/ff-getdata.service';
-import {DataTableModule} from 'primeng/primeng';
+import { DataTableModule } from 'primeng/primeng';
 
 @NgModule({
   imports: [CommonModule, FfRoutingModule, SharedModule, DataTableModule],

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fbae028-1b5c-4878-96bc-f09c9e21cba1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-seed/src/client/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-seed/tools/tasks/project/build.css_images.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/FF/models/randomData.ts" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/FF/models/randomData.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/index.html" afterPath="$PROJECT_DIR$/angular-seed/src/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts" afterPath="$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/tools/config/project.config.ts" afterPath="$PROJECT_DIR$/angular-seed/tools/config/project.config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/tools/config/seed.config.ts" afterPath="$PROJECT_DIR$/angular-seed/tools/config/seed.config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-seed/tools/config/seed.tasks.json" afterPath="$PROJECT_DIR$/angular-seed/tools/config/seed.tasks.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,28 +29,30 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/src/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="10" column="86" lean-forward="false" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ff.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ff.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="-2">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.config.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project.config.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-seed/tools/config/project.config.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -62,9 +61,21 @@
       <file leaf-file-name="build.css_images.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/tools/tasks/project/build.css_images.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="108">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.task.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-seed/tools/tasks/project/sample.task.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +93,8 @@
       <file leaf-file-name="ff.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -94,10 +105,23 @@
       <file leaf-file-name="ff.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="124">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1484511031693" expanded="true" signature="445:626" ph="{...}" />
+                <marker date="1484511031693" expanded="true" signature="650:653" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ff-getdata.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,21 +130,9 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="56">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seed.config.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-seed/tools/config/seed.config.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="349" column="56" lean-forward="false" selection-start-line="349" selection-start-column="56" selection-end-line="349" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -211,18 +223,18 @@
         <option value="$PROJECT_DIR$/angular-seed/src/client/app/shared/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff-routing.module.ts" />
-        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts" />
-        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts" />
-        <option value="$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts" />
         <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/models/randomData.ts" />
         <option value="$PROJECT_DIR$/angular-seed/package.json" />
         <option value="$PROJECT_DIR$/angular-seed/src/client/index.html" />
         <option value="$PROJECT_DIR$/angular-seed/tools/config/seed.config.ts" />
-        <option value="$PROJECT_DIR$/angular-seed/tools/config/project.config.ts" />
         <option value="$PROJECT_DIR$/angular-seed/tools/tasks/project/build.css_images.ts" />
         <option value="$PROJECT_DIR$/angular-seed/tools/config/seed.tasks.json" />
-        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts" />
         <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html" />
+        <option value="$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts" />
+        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts" />
+        <option value="$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts" />
+        <option value="$PROJECT_DIR$/angular-seed/tools/config/project.config.ts" />
       </list>
     </option>
   </component>
@@ -233,6 +245,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules" />
     <handled-path value="$PROJECT_DIR$/angular-seed/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -410,133 +423,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stupertools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -973,12 +860,12 @@
       <workItem from="1482109134089" duration="9126000" />
       <workItem from="1483817872883" duration="620000" />
       <workItem from="1484017095063" duration="17027000" />
-      <workItem from="1484272844552" duration="29728000" />
+      <workItem from="1484272844552" duration="30243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57461000" />
+    <option name="totallyTimeSpent" value="57976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="0" />
@@ -1022,22 +909,32 @@
       <list>
         <option value="$PROJECT_DIR$/angular-seed/tools/env/env-config.interface.js" />
         <option value="$PROJECT_DIR$/angular-seed/tools/env/env-config.interface.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.component.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/operators.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.module.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.component.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main-prod.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.component.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/operators.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.ngfactory.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/operators.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/i18n.providers.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/system-config.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main-prod.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/system-config.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/i18n.providers.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/app.module.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/main.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff-routing.module.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.module.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff-routing.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.component.css.shim.ngstyle.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.component.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.component.js.map" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff.module.js" />
+        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/FF/ff-routing.module.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/home/home.module.ngfactory.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/home/home.module.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/home/home.component.js.map" />
@@ -1061,8 +958,6 @@
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/shared.module.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/shared.module.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/shared.module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/config/env.config.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/config/env.config.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/navbar/navbar.component.js.map" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/navbar/navbar.component.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/navbar/navbar.component.css.shim.ngstyle.js" />
@@ -1071,42 +966,6 @@
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/toolbar/toolbar.component.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/toolbar/toolbar.component.ngfactory.js" />
         <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/toolbar/toolbar.component.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/name-list/name-list.service.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/name-list/name-list.service.js.map" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/app/shared/name-list/index.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/core/src/application_module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/http/src/http_module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/form_providers.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/common_module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/router/src/router_module.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/platform-browser/src/browser.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/validators.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/default_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/ng_model_group.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/range_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/radio_control_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/number_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/ng_model.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/ng_form.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/checkbox_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/select_multiple_control_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/ng_control_status.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/select_control_value_accessor.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_class.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_for.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_style.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_template_outlet.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_switch.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_if.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/common/src/directives/ng_plural.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/router/src/directives/router_link_active.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/router/src/directives/router_link.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/router/src/directives/router_outlet.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/reactive_directives/form_control_name.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/reactive_directives/form_control_directive.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/reactive_directives/form_group_name.ngfactory.js" />
-        <option value="$PROJECT_DIR$/angular-seed/dist/tmp/node_modules/@angular/forms/src/directives/reactive_directives/form_group_directive.ngfactory.js" />
       </list>
     </option>
   </component>
@@ -1122,14 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-seedold/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1300,16 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1378,7 +1219,7 @@
         <state relative-caret-position="-146">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1490,37 +1331,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-seed/tools/config/seed.config.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="349" column="56" lean-forward="false" selection-start-line="349" selection-start-column="56" selection-end-line="349" selection-end-column="56" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-seed/tools/config/project.config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-seed/tools/tasks/project/build.css_images.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,18 +1349,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="56">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -1552,18 +1379,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="124">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1484511031693" expanded="true" signature="445:626" ph="{...}" />
+            <marker date="1484511031693" expanded="true" signature="650:653" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/ff.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/app/FF/services/ff-getdata.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-seed/src/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="86" lean-forward="false" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-seed/tools/tasks/project/sample.task.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-seed/tools/tasks/project/build.css_images.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-seed/tools/config/project.config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding />
         </state>
       </provider>

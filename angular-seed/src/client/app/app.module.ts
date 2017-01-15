@@ -10,7 +10,7 @@ import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { FfModule } from './FF/ff.module';
 
-import {DataTableModule} from 'primeng/primeng';
+import { DataTableModule } from 'primeng/primeng';
 
 @NgModule({
   imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule, FfModule, SharedModule.forRoot(), DataTableModule],

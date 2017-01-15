@@ -8,7 +8,7 @@ import { SeedConfig } from './seed.config';
  * below.
  */
 export class ProjectConfig extends SeedConfig {
-  PRIME_NG_THEME = '<theme-name>';
+  PRIME_NG_THEME = 'omega';
   CSS_IMAGE_DEST = `${this.CSS_DEST}/images`;
   CSS_IMAGE_SRC = [
     'node_modules/primeng/resources/themes/' + this.PRIME_NG_THEME + '/images/**'
@@ -30,7 +30,7 @@ export class ProjectConfig extends SeedConfig {
       // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
       // {src: 'lodash/lodash.min.js', inject: 'libs'},
       { src: 'primeng/resources/primeng.min.css', inject: true },
-      { src: 'primeng/resources/themes/<theme-name>/theme.css', inject: true },
+      { src: 'primeng/resources/themes/omega/theme.css', inject: true },
       { src: 'font-awesome/css/font-awesome.min.css', inject: true },
     ];
 
