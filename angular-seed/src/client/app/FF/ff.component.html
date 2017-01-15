@@ -4,5 +4,11 @@
 <!-- Will need to change the button locations around to not require a form resubmit-->
 <form (submit)="viewStats()">
   <!--<input [(ngModel)]="newName" name="newName" placeholder="This is a placeholder">-->
-  <button type="button">Refresh Grid</button>
+  <button type="button" (click)="viewStats()">Refresh Grid</button>
 </form>
+
+<!--
+<p-dataTable *ngIf="show" [value]="randomData">
+  <p-column *ngFor="let col of cols" [field]="col.field" [header]="col.header"></p-column>
+</p-dataTable>-->
+

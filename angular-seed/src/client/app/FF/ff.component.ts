@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NameListService } from '../shared/name-list/name-list.service';
+import { FFDataService } from './services/ff-getdata.service';
+import { randomData } from './models/randomData'
 
 /**
  * This class represents the lazy loaded ffComponent.
@@ -10,18 +11,37 @@ import { NameListService } from '../shared/name-list/name-list.service';
   templateUrl: 'ff.component.html',
   styleUrls: ['ff.component.css'],
 })
-export class FfComponent implements OnInit {
+
+export class FFComponent implements OnInit {
+  errorMessage: string;
+  show: boolean = false;
+  cols: any[];
+  randomData: randomData[] = [];
 
   /**
    * Get the names OnInit
    */
+  constructor(public FFDataService: FFDataService) {}
+
   ngOnInit() {
-    //this.getNames();
   }
 
-  /**
-   * TODO modify to get player stats
-   */
+  getNames() {
+    this.FFDataService.get()
+      .subscribe(
+        randomData => this.randomData = randomData,
+        error => this.errorMessage = <any>error
+      );
+
+    this.cols = [
+      {field: 'postId', header: 'AnotherId'},
+      {field: 'id', header: 'Id'},
+      {field: 'name', header: 'Name'},
+      {field: 'email', header: 'Email'},
+      {field: 'body', header: 'uberLongMessage'}
+    ];
+    this.show = true;
+  }
 
   /**
    * Returns a grid of players based on filter selections
@@ -30,7 +50,7 @@ export class FfComponent implements OnInit {
    */
   viewStats(): boolean {
     // TODO: returns grid of top 300 player results by scoring choice (default ALL players and PPR)
-    alert('not done');
+    this.getNames();
     return false;
   }
 
