@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/Joff/.nvm/versions/node/v7.4.0/bin/node',
+1 verbose cli   '/home/Joff/.nvm/versions/node/v7.4.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build.prod.aot' ]
+2 info using npm@4.1.1
+3 info using node@v7.4.0
+4 verbose config Skipping project config: /home/Joff/.npmrc. (matches userconfig)
+5 verbose stack Error: ENOENT: no such file or directory, open '/home/Joff/package.json'
+6 verbose cwd /home/Joff/workspace/stupertools
+7 error Linux 3.10.0-327.el7.x86_64
+8 error argv "/home/Joff/.nvm/versions/node/v7.4.0/bin/node" "/home/Joff/.nvm/versions/node/v7.4.0/bin/npm" "run" "build.prod.aot"
+9 error node v7.4.0
+10 error npm  v4.1.1
+11 error path /home/Joff/package.json
+12 error code ENOENT
+13 error errno -2
+14 error syscall open
+15 error enoent ENOENT: no such file or directory, open '/home/Joff/package.json'
+16 error enoent ENOENT: no such file or directory, open '/home/Joff/package.json'
+16 error enoent This is most likely not a problem with npm itself
+16 error enoent and is related to npm not being able to find a file.
+17 verbose exit [ -2, true ]
