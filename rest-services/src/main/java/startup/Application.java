@@ -1,4 +1,4 @@
-package hello;
+package startup;
 
 import java.util.Arrays;
 
@@ -29,5 +29,12 @@ public class Application {
 
         };
     }
+
+    //TODO configure pom.xml to make war
+    //TODO deploy and test war
+    //TODO set up mongo DB
+    //TODO pull data from mongo DB
+    //TODO create data models to store data
+    //TODO create endpoints to return data
 
 }
