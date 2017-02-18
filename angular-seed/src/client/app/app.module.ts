@@ -10,10 +10,11 @@ import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { FfModule } from './FF/ff.module';
 
+import { DialogModule } from 'primeng/primeng';
 import { DataTableModule } from 'primeng/primeng';
 
 @NgModule({
-  imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule, FfModule, SharedModule.forRoot(), DataTableModule],
+  imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule, FfModule, SharedModule.forRoot(), DataTableModule, DialogModule],
   declarations: [AppComponent],
   providers: [{
     provide: APP_BASE_HREF,

@@ -18,14 +18,14 @@ public class Application {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-
+/*
             System.out.println("Let's inspect the beans provided by Spring Boot:");
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
             for (String beanName : beanNames) {
                 System.out.println(beanName);
-            }
+            }*/
 
         };
     }
@@ -35,6 +35,6 @@ public class Application {
     //TODO set up mongo DB
     //TODO pull data from mongo DB
     //TODO create data models to store data
-    //TODO create endpoints to return data
+    //TODO create old to return data
 
 }

@@ -10,7 +10,7 @@ export class FFDataService {
   constructor(private http: Http) {}
 
   get() : Observable<randomData[]> {
-    return this.http.get('https://jsonplaceholder.typicode.com/comments')
+    return this.http.get('http://localhost:8080/FantasyFootball')
     //return this.http.get('/assets/data.json')
       .map((res: Response) => res.json())
                     .do(data => console.log('server data:', data))  // debug

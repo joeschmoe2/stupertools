@@ -1,9 +1,10 @@
 :host {
-  background-color: #106cc8;
+  /*background-color: #106cc8;*/
+  background-color: lightgray;
   color: rgba(255, 255, 255, 0.87);
   display: block;
-  height: 48px;
-  padding: 0 16px;
+  height: 104px;
+  /*padding: 0 16px;*/
 }
 
 h1 {

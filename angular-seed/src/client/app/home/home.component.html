@@ -8,3 +8,23 @@
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
 </ul>
+
+
+<p-dialog modal="true" dismissableMask="true" header="Please Login" [(visible)]="display">
+  <img src="/assets/images/banner.jpg" alt="StuperTools Banner"/>
+
+  <div>
+    <label>Name: </label>
+    <input type="text" [(ngModel)]="userName" name="userName"/>
+  </div>
+
+  <div>
+    <label>Password:</label>
+    <input type="password" [(ngModel)]="userPass" name="userPass"/>
+  </div>
+
+  <button>Login</button>
+
+</p-dialog>
+
+<button type="text" (click)="showDialog()" pButton icon="fa-external-link-square">Login Modal</button>

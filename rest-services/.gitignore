@@ -1,6 +1,7 @@
 gradle
 target
 .mvn
+.idea
 
 gradlew
 gradlew.bat

@@ -5,5 +5,5 @@ Set up backup system
 Install mongo
 Import sample data
 Create data objects
-Create endpoints for objects and return them
+Create old for objects and return them
 Create more complicated requirements

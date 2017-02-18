@@ -6,7 +6,7 @@ package models.FantasyFootball;
 
 import org.springframework.data.annotation.Id;
 
-public class Quarterbacks {
+public class Quarterback {
     //TODO probably won't have a class for each position but this is just to get some data on the page
 
     @Id
@@ -15,10 +15,10 @@ public class Quarterbacks {
     public String firstName;
     public String lastName;
 
-    public Quarterbacks() {
+    public Quarterback() {
     }
 
-    public Quarterbacks(String firstName, String lastName) {
+    public Quarterback(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }

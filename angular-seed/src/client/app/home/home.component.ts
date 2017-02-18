@@ -53,4 +53,11 @@ export class HomeComponent implements OnInit {
     return false;
   }
 
+  display: boolean = false;
+
+  showDialog() {
+    this.display = true;
+  }
+
+
 }
