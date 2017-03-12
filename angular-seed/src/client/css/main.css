@@ -68,3 +68,49 @@ button {
 button:hover {
   background-color: #28739e;
 }
+
+.ui-menu-list,
+.ui-menu-child,
+.ui-widget-content,
+.ui-menuitem{
+  background-color: #106cc8;
+  padding:0;
+  border:none;
+}
+
+.ui-menu-list.ui-menubar-root-list{
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color: #106cc8;
+  display: block;
+  /*min-height:36px;*/
+}
+
+ul.ui-menu-list.ui-widget-content.ui-corner-all.ui-helper-clearfix.ui-menu-child.ui-shadow{
+  background:none;
+  background-color: #106cc8;
+  border-color:darkgray;
+}
+
+.ui-menubar.ui-menu.ui-widget.ui-widget-content.ui-corner-all.ui-helper-clearfix{
+  margin-left:10px;
+}
+
+.ui-menuitem-text {
+  color: #FFFFFF;
+  font-size: 16px;
+  vertical-align:middle;
+  /*font-weight: bold;*/
+}
+
+a.ui-state-hover .ui-menuitem-text {
+  color: orange;
+}
+
+.ui-menu a.ui-state-hover {
+  background-color: #0f3bc8;
+  border-color:#106cc8;
+}
+.ui-submenu-icon, .ui-menuitem-icon{
+  display: none;
+}

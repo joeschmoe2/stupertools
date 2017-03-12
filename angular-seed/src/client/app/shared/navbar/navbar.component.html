@@ -1,5 +1,51 @@
+<!--<div class="more"><button type="text" (click)="showDialog()">Login</button><img src="/assets/svg/more.svg" alt="more" /></div>
 <nav>
   <a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">HOME</a>
   <a [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">ABOUT</a>
   <a [routerLink]="['/FF']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">TOOLS</a>
-</nav>
+</nav>-->
+
+<!--<p-dialog modal="true" dismissableMask="true" header="Please Login" [(visible)]="display">
+  <img src="/assets/images/banner.jpg" alt="StuperTools Banner"/>
+
+  <div>
+    <label>Name: </label>-->
+    <!--<input type="text" [(ngModel)]="userName" name="userName"/>-->
+ <!-- </div>
+
+  <div>
+    <label>Password:</label>-->
+    <!--<input type="password" [(ngModel)]="userPass" name="userPass"/>-->
+  <!--</div>
+
+  <button>Login</button>
+
+</p-dialog>-->
+
+<div class="customMenu">
+  <div style="float:left">
+    <p-menubar [model]="navbar"></p-menubar>
+  </div>
+  <!--<button type="text" (click)="showDialog()">Login</button><img src="/assets/svg/more.svg" alt="more" />-->
+  <div style="float:right">
+    <p-menubar [model]="profile"></p-menubar>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
+<p-dialog modal="true" dismissableMask="true" header="Please Login" [(visible)]="display">
+  <img src="/assets/images/banner.jpg" alt="StuperTools Banner"/>
+
+  <div>
+    <label>Name: </label>
+<!--<input type="text" [(ngModel)]="userName" name="userName"/>-->
+  </div>
+
+ <div>
+   <label>Password:</label>
+<!--<input type="password" [(ngModel)]="userPass" name="userPass"/>-->
+</div>
+
+<button>Login</button>
+
+</p-dialog>
